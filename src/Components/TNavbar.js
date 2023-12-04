@@ -20,16 +20,16 @@ const TNavbar = () => {
             {/* <Link to="/signup" style={{ textDecoration: 'none' }}> */}
               {/* <Button className='Rbutton'>Sign Up</Button> */}
             {/* </Link> */}
-              <NavLink href="/shop/">Shop</NavLink>
+              <NavLink href="/">Shop</NavLink>
             </NavItem> 
             <NavItem className='pt-3 font-weight-bold'> 
-              <NavLink href="/myorders/">Orders</NavLink>
+              <NavLink href="/men">Mens</NavLink>
             </NavItem> 
             <NavItem className='pt-3 font-weight-bold'> 
-              <NavLink href="/shop/">Categories</NavLink>
+              <NavLink href="/women">Womens</NavLink>
             </NavItem> 
             <NavItem className='pt-3 font-weight-bold'> 
-              <NavLink href="/cart/">Cart</NavLink>
+              <NavLink href="/kids">Kids</NavLink>
             </NavItem> 
             <NavItem className='pt-3 font-weight-bold'> 
               <NavLink style={{fontWeight:'600%'}} href="/checkout/">Checkout</NavLink>

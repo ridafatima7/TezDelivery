@@ -7,6 +7,7 @@ let DataProduct=[
         image: shirt,
         new_price:60.00,
         old_price:50.00,
+        category:'men'
     },
     {
         id:2,
@@ -14,6 +15,8 @@ let DataProduct=[
         image:shirt ,
         new_price:60.00,
         old_price:50.00,
+        category:'men'
+
     },
     {
         id:3,
@@ -21,6 +24,8 @@ let DataProduct=[
         image: shirt,
         new_price:60.00,
         old_price:50.00,
+        category:'men'
+
     },
     {
         id:4,
@@ -28,6 +33,8 @@ let DataProduct=[
         image:shirt ,
         new_price:60.00,
         old_price:50.00,
+        category:'women'
+
     },
     {
         id:5,
@@ -35,6 +42,8 @@ let DataProduct=[
         image: shirt,
         new_price:60.00,
         old_price:50.00,
+        category:'women'
+
     },
     {
         id:6,
@@ -42,6 +51,8 @@ let DataProduct=[
         image: shirt,
         new_price:60.00,
         old_price:50.00,
+        category:'women'
+
     },
     {
         id:7,
@@ -49,6 +60,8 @@ let DataProduct=[
         image: shirt,
         new_price:60.00,
         old_price:50.00,
+        category:'kids'
+
     },
 ]
 export default DataProduct;
