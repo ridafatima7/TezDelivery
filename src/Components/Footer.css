@@ -1,0 +1,36 @@
+.Container{
+    margin:0 auto;
+    max-width: 90%;
+    box-sizing:border-box;
+    margin-top: 50px;
+}
+.Row0{
+    margin-left: 5%;
+    background-color: darkblue;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    gap:74px;
+    margin-left: 4px;
+}
+.Row0 div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.icons{
+    align-items: end;
+    margin-right: 10px;
+    width:30px;
+    height:30px;    
+}
+.Row1{
+    background-color:midnightblue;
+    text-align: center;
+    color: aliceblue;
+}
+.Row3{
+    background-color:darkblue;
+    color: aliceblue;
+}

@@ -1,0 +1,36 @@
+.NContainer{
+    margin:0 auto;
+    max-width: 90%;
+    display: flex;
+    box-sizing:border-box;
+}
+body {
+    background-color: gainsboro;
+    font-family: var(--font-family);
+  }
+.navbar{
+    justify-content: space-between;
+    font-weight: bold;
+    display: flex;
+    color:black;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10px;
+    /* margin: auto; */
+}
+.logo{
+    width: 200px;
+    height: auto;
+}
+.navdiv{
+    gap: 20px;
+    margin-left: 116%;
+    display: flex;
+    /* align-items: end; */
+}
+.navdiv a {
+    text-decoration: none; /* Remove underline */
+    color: black;
+    font-size: 18px;
+    font-weight: 600; /* Adjust font weight */
+  }
