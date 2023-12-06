@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { ShopContext } from './ShopContext'
-import Item from './Item';
+// import Item from './Item';
 import { HiChevronDown } from "react-icons/hi";
 
 const ShopCategory = (props) => {
@@ -16,7 +16,7 @@ const ShopCategory = (props) => {
                     Sort by<img src={<HiChevronDown />} alt=''></img>
                 </div>
             </div>
-            <div className='shopCategory-products'>
+            {/* <div className='shopCategory-products'>
                  {products.map((item,i)=>{
                     {console.log(products.name)}
                     if(props.category===item.category)
@@ -27,7 +27,7 @@ const ShopCategory = (props) => {
                         return null;
                     }      
                  })}
-            </div>
+            </div> */}
             <div className='loadmore'>
                 Explore More
             </div>
